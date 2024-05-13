@@ -1,0 +1,41 @@
+html {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: red;
+    padding: 1rem;
+}
+
+nav {
+    background-color: orange;
+    padding: 1rem;
+}
+
+section {
+    background-color: yellow;
+    padding: 1rem;
+    flex-basis: 50%;
+}
+
+article {
+    background-color: green;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+aside {
+    background-color: blue;
+    padding: 1rem;
+    flex-basis: 50%;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+}
